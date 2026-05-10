@@ -28,11 +28,7 @@ Two tools for generating a `.glb` rigged version of models exported from **Diabl
 
 ## Installation
 
-```bash
-git clone https://github.com/YOUR_USERNAME/d4-model-studio.git
-cd d4-model-studio
-pip install -r requirements.txt
-```
+- Download & Extract the latest [Release](https://github.com/trappuss/Diablo4GLTFtoGLB/releases)
 
 ---
 
