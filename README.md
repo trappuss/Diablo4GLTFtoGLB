@@ -1,9 +1,9 @@
 [README.md](https://github.com/user-attachments/files/27572564/README.md)
-# Diablo4GLTFtoGLB# D4 Model Studio
+# Diablo4GLTFtoGLB # 
 
 Two tools for generating a `.glb` rigged version of models exported from **Diablo IV** with the tool [D4Analyzer](https://github.com/DiabloTools/Diablo4Tools-Releases) 
 
-![D4 Model Studio Screenshot](https://i.imgur.com/jPG7A8G.png)
+![D4 Model Studio Screenshot](https://github.com/trappuss/Diablo4GLTFtoGLB/blob/main/preview.png?raw=true)
 
 ---
 
@@ -41,25 +41,12 @@ Double-click `launch.bat` — it checks for Python, installs Pillow if needed, a
 Or run directly:
 
 ```bash
-python d4_model_studio.py
+python Diablo4GLTFtoGLB.py
 ```
 
 ### Standalone Version
 
 Drag & Drop a `.gltf` file exported from [D4Analyzer](https://github.com/DiabloTools/Diablo4Tools-Releases)  onto `d4_convert.py` and it'll generate a rigged `.glb` version next to it. You can also Drag & Drop a folder or multiple files for conversion as well.
-
-### CLI
-
-```bash
-# Convert a single file
-python d4_model_studio.py model.gltf
-
-# Convert all .gltf files in a folder
-python d4_model_studio.py --dir "C:\path\to\export" --output "C:\path\to\output"
-
-# Convert without embedding textures
-python d4_model_studio.py model.gltf --no-embed
-```
 
 ---
 
@@ -67,8 +54,8 @@ python d4_model_studio.py model.gltf --no-embed
 
 | File | Description |
 |------|-------------|
-| `d4_model_studio.py` | Main application (GUI + CLI) |
-| `d4_convert.py` | Standalone conversion engine, just drag and drop any .gltf file/s onto it and it'll generate a rigged .glb |
+| `Diablo4GLTFtoGLB.py` | Main application (GUI + CLI) |
+| `Diablo4GLTFtoGLB_standalone.py` | Standalone version with no gui, just drag and drop any .gltf file/s onto it and it'll generate a rigged .glb next to the .gltf files |
 | `launch.bat` | Windows launcher with auto-install |
 | `requirements.txt` | Python dependencies |
 
