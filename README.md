@@ -3,7 +3,8 @@
 
 A GUI tool for converting **Diablo IV** model exports from [D4Analyzer](https://github.com/skarn/d4data) into fully-rigged `.glb` files ready for Blender, Unreal Engine, or any other 3D application.
 
-![D4 Model Studio Screenshot](screenshot.png)
+![D4 Model Studio Screenshot](<img width="1102" height="772" alt="python_qzwl6WFbC3" src="https://github.com/user-attachments/assets/88f712dd-0b31-4dc7-83f2-8fd2619ff7d7" />
+)
 
 ---
 
@@ -21,7 +22,8 @@ A GUI tool for converting **Diablo IV** model exports from [D4Analyzer](https://
 ## Requirements
 
 - Python 3.10+
-- [D4Analyzer](https://github.com/skarn/d4data) (to export `.gltf` files from the game)
+- [D4Analyzer](https://github.com/DiabloTools/Diablo4Tools-Releases![Uploading python_qzwl6WFbC3.png…]()
+) (to export `.gltf` files from the game)
 
 ---
 
