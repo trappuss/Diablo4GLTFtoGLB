@@ -78,4 +78,4 @@ Drag & Drop a `.gltf` file exported from [D4Analyzer](https://github.com/DiabloT
 
 ## Disclaimer
 
-This tool is a fan project and is not affiliated with or endorsed by Blizzard Entertainment. Do not distribute Diablo IV game assets. Use extracted models for personal, non-commercial purposes only and in accordance with [Blizzard's Fan Art Policy](https://www.blizzard.com/en-us/legal/b9c9ed9e-ff4b-4bcd-b94e-2cfa02f69a7c/copyright-notices).
+This tool is a fan project and is not affiliated with or endorsed by Blizzard Entertainment. Do not distribute Diablo IV game assets. Use extracted models for personal, non-commercial purposes only and in accordance with [Blizzard's Fan Art Policy](https://www.blizzard.com/en-us/legal/b9c9ed9e-ff4b-4bcd-b94e-2cfa02f69a7c/copyright-notices). Also this tool is made with AI so don't let anyone trick you into buying any tool similiar, it's just simple code. Actually don't buy anything, FUCK GATEKEEPING.
