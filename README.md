@@ -1,10 +1,9 @@
 [README.md](https://github.com/user-attachments/files/27572564/README.md)
 # Diablo4GLTFtoGLB# D4 Model Studio
 
-A GUI tool for converting **Diablo IV** model exports from [D4Analyzer](https://github.com/skarn/d4data) into fully-rigged `.glb` files ready for Blender, Unreal Engine, or any other 3D application.
+Two tools for generating a `.glb` rigged version of models exported from **Diablo IV** with the tool [D4Analyzer](https://github.com/DiabloTools/Diablo4Tools-Releases) 
 
-![D4 Model Studio Screenshot](<img width="1102" height="772" alt="python_qzwl6WFbC3" src="https://github.com/user-attachments/assets/88f712dd-0b31-4dc7-83f2-8fd2619ff7d7" />
-)
+![D4 Model Studio Screenshot](https://i.imgur.com/jPG7A8G.png)
 
 ---
 
@@ -13,6 +12,7 @@ A GUI tool for converting **Diablo IV** model exports from [D4Analyzer](https://
 - **Batch conversion** — drag in a folder or use Grab Latest to auto-detect your most recent D4Analyzer export
 - **Full armature** — bones, parent hierarchy, and skin weights (JOINTS_0 / WEIGHTS_0) are preserved
 - **Texture embedding** — all materials and textures baked into a single self-contained `.glb`
+- **Click **⟳ Grab Latest** to automatically find and load the most recently exported folder from D4Analyzer. No folder selection needed.**
 - **Embedded 3D preview** — wireframe and shaded preview with skeleton overlay, directly in the app
 - **Right-click export menu** — export to a custom folder, open in Explorer, and more
 - **CLI mode** — run headless from the terminal for scripting and batch pipelines
@@ -22,8 +22,7 @@ A GUI tool for converting **Diablo IV** model exports from [D4Analyzer](https://
 ## Requirements
 
 - Python 3.10+
-- [D4Analyzer](https://github.com/DiabloTools/Diablo4Tools-Releases![Uploading python_qzwl6WFbC3.png…]()
-) (to export `.gltf` files from the game)
+- [D4Analyzer](https://github.com/DiabloTools/Diablo4Tools-Releases) (to export `.gltf` files from the game)
 
 ---
 
@@ -39,7 +38,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-### GUI (recommended)
+### GUI Version
 
 Double-click `launch.bat` — it checks for Python, installs Pillow if needed, and starts the app.
 
@@ -49,9 +48,9 @@ Or run directly:
 python d4_model_studio.py
 ```
 
-### Grab Latest
+### Standalone Version
 
-Click **⟳ Grab Latest** to automatically find and load the most recently exported folder from D4Analyzer. No folder selection needed.
+Drag & Drop a `.gltf` file exported from [D4Analyzer](https://github.com/DiabloTools/Diablo4Tools-Releases)  onto `d4_convert.py` and it'll generate a rigged `.glb` version next to it. You can also Drag & Drop a folder or multiple files for conversion as well.
 
 ### CLI
 
@@ -73,7 +72,7 @@ python d4_model_studio.py model.gltf --no-embed
 | File | Description |
 |------|-------------|
 | `d4_model_studio.py` | Main application (GUI + CLI) |
-| `d4_convert.py` | Standalone conversion engine |
+| `d4_convert.py` | Standalone conversion engine, just drag and drop any .gltf file/s onto it and it'll generate a rigged .glb |
 | `launch.bat` | Windows launcher with auto-install |
 | `requirements.txt` | Python dependencies |
 
