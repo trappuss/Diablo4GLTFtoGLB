@@ -1,7 +1,7 @@
 [README.md](https://github.com/user-attachments/files/27572564/README.md)
 # Diablo4GLTFtoGLB # 
 
-Two tools for generating a `.glb` rigged version of models exported from **Diablo IV** with the tool [D4Analyzer](https://github.com/DiabloTools/Diablo4Tools-Releases). It can do this by pulling information from `.app.json` files found in [d4data(https://github.com/DiabloTools/d4data)] and translating it. This also means the tool exclusively functions based off of the informational available through [d4data(https://github.com/DiabloTools/d4data)]. Some models will still be encrypted and not have an available `.app.json` to pull from in-which I recommend waiting for another content update for Diablo 4 and trying again then.
+Two tools for generating a `.glb` rigged version of models exported from **Diablo IV** with the tool [D4Analyzer](https://github.com/DiabloTools/Diablo4Tools-Releases). It can do this by pulling information from `.app.json` files found in [d4data](https://github.com/DiabloTools/d4data) and translating it. This also means the tool exclusively functions based off of the informational available through [d4data](https://github.com/DiabloTools/d4data). Some models will still be encrypted and not have an available `.app.json` to pull from in-which I recommend waiting for another content update for Diablo 4 and trying again then.
 
 ![D4 Model Studio Screenshot](https://github.com/trappuss/Diablo4GLTFtoGLB/blob/main/preview.png?raw=true)
 
