@@ -1,7 +1,7 @@
 [README.md](https://github.com/user-attachments/files/27572564/README.md)
 # Diablo4GLTFtoGLB # 
 
-Two tools for generating a `.glb` rigged version of models exported from **Diablo IV** with the tool [D4Analyzer](https://github.com/DiabloTools/Diablo4Tools-Releases) 
+Two tools for generating a `.glb` rigged version of models exported from **Diablo IV** with the tool [D4Analyzer](https://github.com/DiabloTools/Diablo4Tools-Releases). It can do this by pulling information from `.app.json` files found in [d4data(https://github.com/DiabloTools/d4data)] and translating it. This also means the tool exclusively functions based off of the informational available through [d4data(https://github.com/DiabloTools/d4data)]. Some models will still be encrypted and not have an available `.app.json` to pull from in-which I recommend waiting for another content update for Diablo 4 and trying again then.
 
 ![D4 Model Studio Screenshot](https://github.com/trappuss/Diablo4GLTFtoGLB/blob/main/preview.png?raw=true)
 
@@ -15,7 +15,6 @@ Two tools for generating a `.glb` rigged version of models exported from **Diabl
 - **Click **⟳ Grab Latest** to automatically find and load the most recently exported folder from D4Analyzer. No folder selection needed.**
 - **Embedded 3D preview** — wireframe and shaded preview with skeleton overlay, directly in the app
 - **Right-click export menu** — export to a custom folder, open in Explorer, and more
-- **CLI mode** — run headless from the terminal for scripting and batch pipelines
 
 ---
 
@@ -58,6 +57,16 @@ Drag & Drop a `.gltf` file exported from [D4Analyzer](https://github.com/DiabloT
 | `Diablo4GLTFtoGLB_standalone.py` | Standalone version with no gui, just drag and drop any .gltf file/s onto it and it'll generate a rigged .glb next to the .gltf files |
 | `launch.bat` | Windows launcher with auto-install |
 | `requirements.txt` | Python dependencies |
+
+---
+
+## To-Do List
+
+- Standalone version should close automatically once finished.
+- Standalone version should be able to drag and drop onto opened.
+- GUI version should hide terminal.
+- GUI version's 3d viewer doesn't show textures when textures are toggled.
+- GUI version should be more compact.
 
 ---
 
